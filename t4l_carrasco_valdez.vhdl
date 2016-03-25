@@ -11,7 +11,8 @@ end entity;
 
 architecture buzz of buzzer is
 	begin
-	-- x = a'cd'f + ade' + ad'f + a'bc + a'cd + d'ef + ab + be + de
+	-- x = a'cd'f + ade' + ad'f + a'bc + a'cd + d'ef + ab + be + de	 (gray code)
+	-- x <= a'bd'e + a'cd'f + a'bc + a'cd + ad'f + d'ef + ab + ad + de (overlay)
 		x <= ((not a) and c and (not d) and f) or 
 			(a and d and (not e)) or 
 			(a and (not d) and f) or 
