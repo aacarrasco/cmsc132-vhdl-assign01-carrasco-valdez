@@ -1,7 +1,0 @@
-v 3
-file . "t4l_carrasco_valdez_tb.vhdl" "20160325123539.000" "20160325203609.112":
-  entity buzzer_tb at 5( 93) + 0 on 21;
-  architecture buzz_tb of buzzer_tb at 13( 191) + 0 on 22;
-file . "t4l_carrasco_valdez.vhdl" "20160325115220.000" "20160325202452.753":
-  entity buzzer at 5( 93) + 0 on 17;
-  architecture buzz of buzzer at 12( 225) + 0 on 18;
